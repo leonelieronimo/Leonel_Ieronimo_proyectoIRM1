@@ -1,0 +1,28 @@
+@import"./variables";
+
+.encabezado
+{
+    .navbar-dark .navbar-brand
+    {
+        color:$color-titulo;
+        font-size: 1.3rem;
+        &:hover
+        {
+            color:$color-hover;
+        }
+    }
+    .navbar-dark .navbar-nav .nav-link
+    {
+        display: flex;
+        margin: 1rem;
+        color: $color-link;
+        font-size: 1rem;
+        font-style: oblique;
+        transition: all 0.6s;
+        font-family:Arial, Helvetica, sans-serif;
+        &:hover
+        {
+            font-size: 1.2rem;
+        }
+    }
+}

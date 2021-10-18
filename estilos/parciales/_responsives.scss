@@ -1,0 +1,367 @@
+@import "./variables";
+
+
+
+
+@mixin fotos ($width, $height, $padding, $margin)
+{
+    width: $width;
+    height: $height;
+    padding: $padding;          /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: $margin;
+}
+
+@media screen and (max-width: 1024px)   /*Inicia la media quarie hasta el tamaño 1024px de pantalla*/
+{
+    .contenedor
+    {
+        background-color:$color-fondo;
+        align-items: center;
+        main
+        {
+            div
+            {
+                div
+                {
+                    div
+                    {
+                        .texto
+                        {
+                            font-size: 1.3rem;
+                        }
+                        div
+                        {
+                            div 
+                            {
+                                div 
+                                {
+                                    @each $modelo in Deportivos, SuperDeportivos, Sedanes, Camionetas, Camiones, Motos 
+                                    {
+                                        .#{$modelo}-foto
+                                        {
+                                            @include fotos (90%, 270px, 1rem, 1rem);
+                                            $auto:$modelo;
+                                            @if $auto==SuperDeportivos
+                                            {
+                                                background-color: grey;
+                                            }
+                                            @else if $auto==Deportivos
+                                            {
+                                                background-color:tomato;
+                                            }
+                                            @else if $auto==Sedanes
+                                            {
+                                                background-color:lightcyan; /*Le da estilo a cada imagen de separado por tipo de vehiculo, en "index.html"*/
+                                            }
+                                            @else if $auto==Camionetas  
+                                            {
+                                                background-color:lightgreen;        /*Agregué color de fondo para asegurarme que funciona la estructura y para saber como funciona*/
+                                            }
+                                            @else if $auto==Camiones
+                                            {
+                                                background-color: salmon;
+                                            }
+                                            @else if $auto==Motos
+                                            {
+                                                    background-color:red;
+                                            }                                      
+                                        }    
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }   
+            }
+            .seccion
+            {
+                flex-direction: column;
+                align-content: center;
+                justify-content: space-between;
+                div
+                {
+                    div
+                    {
+                        @for $i from 1 to 11 
+                        {
+                            .Auto-#{$i}     
+                            {
+                                @include fotos (90%, 270px, 1rem, 1rem);    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+                                transition:all 1s;
+                                display:flex;
+                                flex-direction: column;
+                                padding: 2px;
+                                &:hover
+                                {
+                                    transform: rotateY(180deg);     /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+                                }
+                            }    
+                        }
+                    }
+                }  
+                .texto
+                {
+                    font-size: 1.3rem;
+                }
+            }      
+        }
+        footer ul
+        {
+            font-size:1rem;
+            padding: 1rem;
+            align-content: center;
+            justify-content: space-between;
+            li
+            {
+                padding: 1rem;
+                transition: all 0.5s;
+                &:hover
+                {
+                    transform: scale(1.2,1.2);  /*Cuando se pasa el mouse por emcima de los "botones" se agrando y cambia de color utilizando la variable "$color-hover"*/
+                    color:$color-hover;
+                }
+            }   
+        }
+    }
+}
+
+@media screen and (max-width: 768px)    /*Inicia la media quarie hasta el tamaño 768px de pantalla*/
+{
+    .contenedor
+    {
+        background:$color-fondo;
+        align-items: center;
+        main
+        {
+            div
+            {
+                div
+                {
+                    div
+                    {
+                        .texto
+                        {
+                            font-size: 1.3rem;
+                        }
+                        div
+                        {
+                            div
+                            {
+                                div         /*El each lo que va a hacer es trabajar en conjunto con el if,
+                                            lo que hice fue tomar la variable asignada por el each y guardarla 
+                                            en la variable $auto, a esta variable $auto la comparo con los distintos 
+                                            tipos de autos para darle un formato distinto segun corresponda. 
+                                            Es para entender como funciona y para probar si pueden trabajar en conjunto*/
+                                {
+                                    @each $modelo in Deportivos, SuperDeportivos, Sedanes, Camionetas, Camiones, Motos 
+                                    {
+                                        .#{$modelo}-foto
+                                        {
+                                            @include fotos (90%, 200px, 11px, 15px);    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+                                            $auto:$modelo;
+                                            @if $auto==SuperDeportivos
+                                            {
+                                                background-color: grey;
+                                            }
+                                            @else if $auto==Deportivos
+                                            {
+                                                background-color:tomato;    /*Le asigno un fondo de color a cada imagen en la parte del "index.html"*/
+                                            }
+                                            @else if $auto==Sedanes
+                                            {
+                                                background-color:lightcyan;
+                                            }
+                                            @else if $auto==Camionetas
+                                            {
+                                                background-color:lightgreen;
+                                            }
+                                            @else if $auto==Camiones
+                                            {
+                                                background-color: salmon;
+                                            }
+                                            @else if $auto==Motos
+                                            {
+                                                background-color:red;
+                                            }                                      
+                                        }    
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .seccion
+            {
+                flex-direction: column;
+                align-content: center;
+                justify-content: space-between;
+                div
+                {
+                    div
+                    {
+                        @for $i from 1 to 11 
+                        {
+                            .Auto-#{$i}     
+                            {
+                                @include fotos (250px, 190px, 5px, 1rem);    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+                                transition:all 1s;
+                                display:flex;
+                                flex-direction: column;
+                                padding: 2px;
+                                &:hover
+                                {
+                                    transform: rotateY(180deg);     /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+                                }
+                            }    
+                        }
+                    }
+                }  
+                .texto
+                {
+                    font-size: 1.3rem;
+                }
+            }      
+        }
+        footer ul
+        {
+            font-size:1rem;
+            padding: 1rem;
+            align-content: center;
+            justify-content: space-between;
+            li
+            {
+                padding: 1rem;
+                transition: all 0.5s;
+                &:hover
+                {
+                    transform: scale(1.2,1.2);  /*Cuando se pasa el mouse por emcima de los "botones" se agrando y cambia de color utilizando la variable "$color-hover"*/
+                    color:$color-hover;
+                }
+            }   
+        }
+    }
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 570px)    /*Inicia la media quarie hasta el tamaño 768px de pantalla*/
+{
+    .contenedor
+    {
+        background-color:$color-fondo;
+        align-items: center;
+        main
+        {
+            div
+            {
+                div
+                {
+                    div
+                    {
+                        .texto
+                        {
+                            font-size: 1.3rem;
+                        }
+                        div
+                        {
+                            div
+                            {
+                                div         /*El each lo que va a hacer es trabajar en conjunto con el if,
+                                            lo que hice fue tomar la variable asignada por el each y guardarla 
+                                            en la variable $auto, a esta variable $auto la comparo con los distintos 
+                                            tipos de autos para darle un formato distinto segun corresponda. 
+                                            Es para entender como funciona y para probar si pueden trabajar en conjunto*/
+                                {
+                                    @each $modelo in Deportivos, SuperDeportivos, Sedanes, Camionetas, Camiones, Motos 
+                                    {
+                                        .#{$modelo}-foto
+                                        {
+                                            @include fotos (90%, 300px, 7px, 20px);    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+                                            $auto:$modelo;
+                                            @if $auto==SuperDeportivos
+                                            {
+                                                background-color: grey;
+                                            }
+                                            @else if $auto==Deportivos
+                                            {
+                                                background-color:tomato;    /*Le asigno un fondo de color a cada imagen en la parte del "index.html"*/
+                                            }
+                                            @else if $auto==Sedanes
+                                            {
+                                                background-color:lightcyan;
+                                            }
+                                            @else if $auto==Camionetas
+                                            {
+                                                background-color:lightgreen;
+                                            }
+                                            @else if $auto==Camiones
+                                            {
+                                                background-color: salmon;
+                                            }
+                                            @else if $auto==Motos
+                                            {
+                                                background-color:red;
+                                            }                                      
+                                        }    
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .seccion
+            {
+                flex-direction: column;
+                align-content: center;
+                justify-content: space-between;
+                div
+                {
+                    div
+                    {
+                        @for $i from 1 to 11 
+                        {
+                            .Auto-#{$i}     
+                            {
+                                @include fotos (85%, 300px, 0px, 1rem);    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+                                transition:all 1s;
+                                display:flex;
+                                flex-direction: column;
+                                padding: 2px;
+                                &:hover
+                                {
+                                    transform: rotateY(180deg);     /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+                                }
+                            }    
+                        }
+                    }
+                }  
+                .texto
+                {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        footer ul 
+        {
+            font-size: 1rem;
+            padding: 1rem;
+            align-content: center;
+            justify-content: space-between;
+            li 
+            {
+                padding: 1rem;
+                transition: all 0.5s;
+                &:hover
+                {
+                    transform: scale(1.2,1.2);
+                    color: $color-hover;
+                }
+            }
+        }
+    }
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/

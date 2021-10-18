@@ -1,0 +1,3401 @@
+@charset "UTF-8";
+@media screen and (max-width: 1024px) {
+  .contenedor {
+    background-color: linear-gradient(to bottom, #000, #fff);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor main div div div .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor main div div div div div div .Deportivos-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: tomato;
+  }
+  .contenedor main div div div div div div .SuperDeportivos-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: grey;
+  }
+  .contenedor main div div div div div div .Sedanes-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: lightcyan;
+    /*Le da estilo a cada imagen de separado por tipo de vehiculo, en "index.html"*/
+  }
+  .contenedor main div div div div div div .Camionetas-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: lightgreen;
+    /*Agregué color de fondo para asegurarme que funciona la estructura y para saber como funciona*/
+  }
+  .contenedor main div div div div div div .Camiones-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: salmon;
+  }
+  .contenedor main div div div div div div .Motos-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: red;
+  }
+  .contenedor main .seccion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor main .seccion div div .Auto-1 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-1:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-2 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-2:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-3 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-3:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-4 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-4:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-5 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-5:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-6 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-6:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-7 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-7:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-8 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-8:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-9 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-9:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-10 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-10:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor footer ul {
+    font-size: 1rem;
+    padding: 1rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor footer ul li {
+    padding: 1rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .contenedor footer ul li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    /*Cuando se pasa el mouse por emcima de los "botones" se agrando y cambia de color utilizando la variable "$color-hover"*/
+    color: orange;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor {
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff));
+    background: linear-gradient(to bottom, #000, #fff);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor main div div div .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor main div div div div div div .Deportivos-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: tomato;
+    /*Le asigno un fondo de color a cada imagen en la parte del "index.html"*/
+  }
+  .contenedor main div div div div div div .SuperDeportivos-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: grey;
+  }
+  .contenedor main div div div div div div .Sedanes-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightcyan;
+  }
+  .contenedor main div div div div div div .Camionetas-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightgreen;
+  }
+  .contenedor main div div div div div div .Camiones-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: salmon;
+  }
+  .contenedor main div div div div div div .Motos-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: red;
+  }
+  .contenedor main .seccion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor main .seccion div div .Auto-1 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-1:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-2 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-2:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-3 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-3:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-4 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-4:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-5 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-5:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-6 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-6:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-7 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-7:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-8 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-8:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-9 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-9:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-10 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-10:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor footer ul {
+    font-size: 1rem;
+    padding: 1rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor footer ul li {
+    padding: 1rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .contenedor footer ul li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    /*Cuando se pasa el mouse por emcima de los "botones" se agrando y cambia de color utilizando la variable "$color-hover"*/
+    color: orange;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 570px) {
+  .contenedor {
+    background-color: linear-gradient(to bottom, #000, #fff);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor main div div div .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor main div div div div div div .Deportivos-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: tomato;
+    /*Le asigno un fondo de color a cada imagen en la parte del "index.html"*/
+  }
+  .contenedor main div div div div div div .SuperDeportivos-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: grey;
+  }
+  .contenedor main div div div div div div .Sedanes-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightcyan;
+  }
+  .contenedor main div div div div div div .Camionetas-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightgreen;
+  }
+  .contenedor main div div div div div div .Camiones-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: salmon;
+  }
+  .contenedor main div div div div div div .Motos-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: red;
+  }
+  .contenedor main .seccion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor main .seccion div div .Auto-1 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-1:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-2 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-2:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-3 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-3:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-4 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-4:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-5 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-5:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-6 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-6:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-7 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-7:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-8 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-8:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-9 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-9:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-10 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-10:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor footer ul {
+    font-size: 1rem;
+    padding: 1rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor footer ul li {
+    padding: 1rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .contenedor footer ul li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    color: orange;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+.contenedor {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff));
+  background: linear-gradient(to bottom, #000, #fff);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  max-width: auto;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor div .texto {
+  font-size: 25px;
+  font-style: oblique;
+  color: burlywood;
+  text-decoration: none;
+}
+
+.contenedor div .lead {
+  color: burlywood;
+}
+
+.contenedor div h1 {
+  color: burlywood;
+  padding: 2rem;
+}
+
+.contenedor div h3 {
+  color: burlywood;
+  padding: 2rem;
+}
+
+.contenedor div h5 {
+  color: burlywood;
+  padding: 2rem;
+}
+
+.contenedor section .texto {
+  font-size: 25px;
+  font-style: oblique;
+  color: burlywood;
+  text-decoration: none;
+}
+
+.encabezado .navbar-dark .navbar-brand {
+  color: #52e67f;
+  font-size: 1.3rem;
+}
+
+.encabezado .navbar-dark .navbar-brand:hover {
+  color: orange;
+}
+
+.encabezado .navbar-dark .navbar-nav .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+  color: #7dec0e;
+  font-size: 1rem;
+  font-style: oblique;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado .navbar-dark .navbar-nav .nav-link:hover {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .contenedor {
+    background-color: linear-gradient(to bottom, #000, #fff);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor main div div div .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor main div div div div div div .Deportivos-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: tomato;
+  }
+  .contenedor main div div div div div div .SuperDeportivos-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: grey;
+  }
+  .contenedor main div div div div div div .Sedanes-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: lightcyan;
+    /*Le da estilo a cada imagen de separado por tipo de vehiculo, en "index.html"*/
+  }
+  .contenedor main div div div div div div .Camionetas-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: lightgreen;
+    /*Agregué color de fondo para asegurarme que funciona la estructura y para saber como funciona*/
+  }
+  .contenedor main div div div div div div .Camiones-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: salmon;
+  }
+  .contenedor main div div div div div div .Motos-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: red;
+  }
+  .contenedor main .seccion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor main .seccion div div .Auto-1 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-1:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-2 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-2:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-3 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-3:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-4 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-4:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-5 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-5:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-6 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-6:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-7 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-7:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-8 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-8:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-9 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-9:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-10 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-10:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor footer ul {
+    font-size: 1rem;
+    padding: 1rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor footer ul li {
+    padding: 1rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .contenedor footer ul li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    /*Cuando se pasa el mouse por emcima de los "botones" se agrando y cambia de color utilizando la variable "$color-hover"*/
+    color: orange;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor {
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff));
+    background: linear-gradient(to bottom, #000, #fff);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor main div div div .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor main div div div div div div .Deportivos-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: tomato;
+    /*Le asigno un fondo de color a cada imagen en la parte del "index.html"*/
+  }
+  .contenedor main div div div div div div .SuperDeportivos-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: grey;
+  }
+  .contenedor main div div div div div div .Sedanes-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightcyan;
+  }
+  .contenedor main div div div div div div .Camionetas-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightgreen;
+  }
+  .contenedor main div div div div div div .Camiones-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: salmon;
+  }
+  .contenedor main div div div div div div .Motos-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: red;
+  }
+  .contenedor main .seccion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor main .seccion div div .Auto-1 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-1:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-2 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-2:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-3 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-3:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-4 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-4:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-5 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-5:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-6 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-6:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-7 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-7:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-8 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-8:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-9 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-9:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-10 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-10:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor footer ul {
+    font-size: 1rem;
+    padding: 1rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor footer ul li {
+    padding: 1rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .contenedor footer ul li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    /*Cuando se pasa el mouse por emcima de los "botones" se agrando y cambia de color utilizando la variable "$color-hover"*/
+    color: orange;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 570px) {
+  .contenedor {
+    background-color: linear-gradient(to bottom, #000, #fff);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor main div div div .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor main div div div div div div .Deportivos-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: tomato;
+    /*Le asigno un fondo de color a cada imagen en la parte del "index.html"*/
+  }
+  .contenedor main div div div div div div .SuperDeportivos-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: grey;
+  }
+  .contenedor main div div div div div div .Sedanes-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightcyan;
+  }
+  .contenedor main div div div div div div .Camionetas-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightgreen;
+  }
+  .contenedor main div div div div div div .Camiones-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: salmon;
+  }
+  .contenedor main div div div div div div .Motos-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: red;
+  }
+  .contenedor main .seccion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor main .seccion div div .Auto-1 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-1:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-2 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-2:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-3 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-3:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-4 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-4:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-5 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-5:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-6 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-6:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-7 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-7:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-8 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-8:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-9 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-9:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-10 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-10:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor footer ul {
+    font-size: 1rem;
+    padding: 1rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor footer ul li {
+    padding: 1rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .contenedor footer ul li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    color: orange;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+main div div div .texto {
+  font-size: 25px;
+  /*Aca le doy formato a los subtitulos de los tipos de autos 
+                                                que aparecen en el "home"*/
+  font-style: oblique;
+  color: burlywood;
+  text-decoration: none;
+}
+
+main div div div div div div .Deportivos-foto {
+  width: 92%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  /*Utilizo la mixin declarada en la seccion "responsive.scss"*/
+  background-color: tomato;
+}
+
+main div div div div div div .SuperDeportivos-foto {
+  width: 92%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  /*Utilizo la mixin declarada en la seccion "responsive.scss"*/
+  background-color: grey;
+}
+
+main div div div div div div .Sedanes-foto {
+  width: 92%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  /*Utilizo la mixin declarada en la seccion "responsive.scss"*/
+  background-color: lightcyan;
+}
+
+main div div div div div div .Camionetas-foto {
+  width: 92%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  /*Utilizo la mixin declarada en la seccion "responsive.scss"*/
+  background-color: lightgreen;
+}
+
+main div div div div div div .Camiones-foto {
+  width: 92%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  /*Utilizo la mixin declarada en la seccion "responsive.scss"*/
+  background-color: salmon;
+}
+
+main div div div div div div .Motos-foto {
+  width: 92%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  /*Utilizo la mixin declarada en la seccion "responsive.scss"*/
+  background-color: red;
+}
+
+main .seccion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /*Uso flexbox para estructurar la seccion de "ventas.html" que es donde aparece mi "section"*/
+  padding: 1rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .seccion div div .Auto-1 {
+  width: 85%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+}
+
+main .seccion div div .Auto-1:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main .seccion div div .Auto-2 {
+  width: 85%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+}
+
+main .seccion div div .Auto-2:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main .seccion div div .Auto-3 {
+  width: 85%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+}
+
+main .seccion div div .Auto-3:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main .seccion div div .Auto-4 {
+  width: 85%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+}
+
+main .seccion div div .Auto-4:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main .seccion div div .Auto-5 {
+  width: 85%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+}
+
+main .seccion div div .Auto-5:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main .seccion div div .Auto-6 {
+  width: 85%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+}
+
+main .seccion div div .Auto-6:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main .seccion div div .Auto-7 {
+  width: 85%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+}
+
+main .seccion div div .Auto-7:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main .seccion div div .Auto-8 {
+  width: 85%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+}
+
+main .seccion div div .Auto-8:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main .seccion div div .Auto-9 {
+  width: 85%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+}
+
+main .seccion div div .Auto-9:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main .seccion div div .Auto-10 {
+  width: 85%;
+  height: 340px;
+  padding: 10px;
+  /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+  margin: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+}
+
+main .seccion div div .Auto-10:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main .seccion div div ul {
+  float: inline-end;
+  list-style: none;
+  /*Esta parte edita la ubicacion y estilo de color 
+                                                y posicion de las caracteristicas descriptas debajo de cada imagen en 
+                                                la seccion de "ventas.html"*/
+  color: #050101;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 1.5rem;
+  padding: 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  color: black;
+}
+
+footer ul li {
+  padding: 1rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer ul li:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  color: orange;
+}
+
+@media screen and (max-width: 1024px) {
+  .contenedor {
+    background-color: linear-gradient(to bottom, #000, #fff);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor main div div div .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor main div div div div div div .Deportivos-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: tomato;
+  }
+  .contenedor main div div div div div div .SuperDeportivos-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: grey;
+  }
+  .contenedor main div div div div div div .Sedanes-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: lightcyan;
+    /*Le da estilo a cada imagen de separado por tipo de vehiculo, en "index.html"*/
+  }
+  .contenedor main div div div div div div .Camionetas-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: lightgreen;
+    /*Agregué color de fondo para asegurarme que funciona la estructura y para saber como funciona*/
+  }
+  .contenedor main div div div div div div .Camiones-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: salmon;
+  }
+  .contenedor main div div div div div div .Motos-foto {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    background-color: red;
+  }
+  .contenedor main .seccion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor main .seccion div div .Auto-1 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-1:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-2 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-2:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-3 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-3:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-4 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-4:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-5 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-5:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-6 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-6:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-7 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-7:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-8 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-8:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-9 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-9:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-10 {
+    width: 90%;
+    height: 270px;
+    padding: 1rem;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-10:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor footer ul {
+    font-size: 1rem;
+    padding: 1rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor footer ul li {
+    padding: 1rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .contenedor footer ul li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    /*Cuando se pasa el mouse por emcima de los "botones" se agrando y cambia de color utilizando la variable "$color-hover"*/
+    color: orange;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor {
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff));
+    background: linear-gradient(to bottom, #000, #fff);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor main div div div .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor main div div div div div div .Deportivos-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: tomato;
+    /*Le asigno un fondo de color a cada imagen en la parte del "index.html"*/
+  }
+  .contenedor main div div div div div div .SuperDeportivos-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: grey;
+  }
+  .contenedor main div div div div div div .Sedanes-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightcyan;
+  }
+  .contenedor main div div div div div div .Camionetas-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightgreen;
+  }
+  .contenedor main div div div div div div .Camiones-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: salmon;
+  }
+  .contenedor main div div div div div div .Motos-foto {
+    width: 90%;
+    height: 200px;
+    padding: 11px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 15px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: red;
+  }
+  .contenedor main .seccion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor main .seccion div div .Auto-1 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-1:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-2 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-2:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-3 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-3:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-4 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-4:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-5 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-5:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-6 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-6:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-7 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-7:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-8 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-8:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-9 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-9:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-10 {
+    width: 250px;
+    height: 190px;
+    padding: 5px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-10:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor footer ul {
+    font-size: 1rem;
+    padding: 1rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor footer ul li {
+    padding: 1rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .contenedor footer ul li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    /*Cuando se pasa el mouse por emcima de los "botones" se agrando y cambia de color utilizando la variable "$color-hover"*/
+    color: orange;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 570px) {
+  .contenedor {
+    background-color: linear-gradient(to bottom, #000, #fff);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor main div div div .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor main div div div div div div .Deportivos-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: tomato;
+    /*Le asigno un fondo de color a cada imagen en la parte del "index.html"*/
+  }
+  .contenedor main div div div div div div .SuperDeportivos-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: grey;
+  }
+  .contenedor main div div div div div div .Sedanes-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightcyan;
+  }
+  .contenedor main div div div div div div .Camionetas-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: lightgreen;
+  }
+  .contenedor main div div div div div div .Camiones-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: salmon;
+  }
+  .contenedor main div div div div div div .Motos-foto {
+    width: 90%;
+    height: 300px;
+    padding: 7px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 20px;
+    /*Uso la mixin para pasar los formatos de las fotos asi no tengo que repetir la clase muchas veces*/
+    background-color: red;
+  }
+  .contenedor main .seccion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor main .seccion div div .Auto-1 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-1:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-2 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-2:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-3 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-3:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-4 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-4:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-5 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-5:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-6 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-6:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-7 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-7:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-8 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-8:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-9 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-9:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion div div .Auto-10 {
+    width: 85%;
+    height: 300px;
+    padding: 0px;
+    /*Uso una mixin que la utilizo en las otras secciones de scss para darle formato a las imagenes*/
+    margin: 1rem;
+    /*Le asigno un formato con la estructura "for" a las 10 imagenes que se encuentran en la seccion de "ventas.html"*/
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2px;
+  }
+  .contenedor main .seccion div div .Auto-10:hover {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    /*Cuando se pasa elm mouse por arriba la imagen rota 180º en el eje Y en las fotos de la seccion de "ventas.html"*/
+  }
+  .contenedor main .seccion .texto {
+    font-size: 1.3rem;
+  }
+  .contenedor footer ul {
+    font-size: 1rem;
+    padding: 1rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contenedor footer ul li {
+    padding: 1rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .contenedor footer ul li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    color: orange;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+/*# sourceMappingURL=main.css.map */

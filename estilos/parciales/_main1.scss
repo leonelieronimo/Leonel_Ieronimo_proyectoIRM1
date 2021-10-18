@@ -1,0 +1,105 @@
+@import "./variables";
+@import"./responsives";
+
+main
+    {
+        div
+        {
+            div
+            {
+                div
+                {
+                    .texto
+                    {
+                        
+                        font-size: 25px;    /*Aca le doy formato a los subtitulos de los tipos de autos 
+                                                que aparecen en el "home"*/
+                        font-style: oblique;
+                        color:$color-texto;
+                        text-decoration: none;
+                    }
+                    div
+                    {
+                        div 
+                        {
+                            div 
+                            {
+                                @each $modelo in Deportivos, SuperDeportivos, Sedanes, Camionetas, Camiones, Motos 
+                                {
+                                    .#{$modelo}-foto
+                                    {
+                                        @include fotos (92%,340px,10px,1rem);   /*Utilizo la mixin declarada en la seccion "responsive.scss"*/
+                                       $auto:$modelo;
+                                       @if $auto==SuperDeportivos
+                                       {
+                                           background-color: grey;
+                                       }
+                                       @else if $auto==Deportivos
+                                       {
+                                           background-color:tomato;
+                                       }
+                                       @else if $auto==Sedanes
+                                       {
+                                           background-color:lightcyan;
+                                       }
+                                       @else if $auto==Camionetas
+                                       {
+                                           background-color:lightgreen;
+                                       }
+                                       @else if $auto==Camiones
+                                       {
+                                           background-color: salmon;
+                                       }
+                                       @else if $auto==Motos
+                                       {
+                                            background-color:red;
+                                       }                                      
+                                    }    
+                                }
+                            }
+                        }
+                    }
+                }
+            }   
+        }
+        .seccion 
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;    /*Uso flexbox para estructurar la seccion de "ventas.html" que es donde aparece mi "section"*/
+            padding: 1rem;  
+            align-content: center;
+            justify-content: space-between;
+            div 
+            {
+                div 
+                {
+                    @for $i from 1 to 11 
+                    {
+                        .Auto-#{$i}     /*Utilizo el for para asignarle un formato a las imagenes de la seccion
+                                         "ventas.html" a traves de la mixin declarada en la seccion "responsive.scss" 
+                                        usando el @include*/
+                        {
+                            @include fotos (85%, 340px, 10px, 1rem);    
+                            transition:all 1s;
+                            display:flex;
+                            flex-direction: column;
+                            padding: 2px;
+                            &:hover
+                            {
+                                transform: rotateY(180deg);
+                            }
+                        }    
+                    }
+                    ul
+                    {
+                        float:inline-end;
+                        list-style: none;   /*Esta parte edita la ubicacion y estilo de color 
+                                                y posicion de las caracteristicas descriptas debajo de cada imagen en 
+                                                la seccion de "ventas.html"*/
+                        color:rgb(5, 1, 1);
+                    }
+                }
+            }
+        }
+    } 
