@@ -1,0 +1,6 @@
+.gitignore
+
+
+git remote add origin https://github.com/leonelieronimo/Leonel_Ieronimo_proyectoIRM1.git
+git branch -M master
+git push -u origin master
