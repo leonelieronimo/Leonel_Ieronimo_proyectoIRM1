@@ -12,9 +12,8 @@
     div
     {
         .texto
-        {
-                
-         
+        {    
+            padding: 1rem;
             font-size: 25px;
             font-style: oblique;
             color:$color-texto;
@@ -39,6 +38,10 @@
             color: $color-texto;
             padding: 2rem;
         }
+    }
+    fieldset
+    {
+        padding: 1.5rem;
     }
     section
     {

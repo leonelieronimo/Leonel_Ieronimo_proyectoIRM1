@@ -306,6 +306,8 @@
   .contenedor footer ul {
     font-size: 1rem;
     padding: 1rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: justify;
@@ -638,6 +640,8 @@
   .contenedor footer ul {
     font-size: 1rem;
     padding: 1rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: justify;
@@ -970,6 +974,8 @@
   .contenedor footer ul {
     font-size: 1rem;
     padding: 1rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: justify;
@@ -1004,6 +1010,7 @@
 }
 
 .contenedor div .texto {
+  padding: 1rem;
   font-size: 25px;
   font-style: oblique;
   color: burlywood;
@@ -1029,11 +1036,19 @@
   padding: 2rem;
 }
 
+.contenedor fieldset {
+  padding: 1.5rem;
+}
+
 .contenedor section .texto {
   font-size: 25px;
   font-style: oblique;
   color: burlywood;
   text-decoration: none;
+}
+
+.encabezado {
+  background-color: #5818ce;
 }
 
 .encabezado .navbar-dark .navbar-brand {
@@ -1369,6 +1384,8 @@
   .contenedor footer ul {
     font-size: 1rem;
     padding: 1rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: justify;
@@ -1701,6 +1718,8 @@
   .contenedor footer ul {
     font-size: 1rem;
     padding: 1rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: justify;
@@ -2033,6 +2052,8 @@
   .contenedor footer ul {
     font-size: 1rem;
     padding: 1rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: justify;
@@ -2379,6 +2400,10 @@ main .seccion div div ul {
   color: #050101;
 }
 
+footer {
+  background-color: #10142e;
+}
+
 footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2388,7 +2413,12 @@ footer ul {
       -ms-flex-direction: row;
           flex-direction: row;
   font-size: 1.5rem;
-  padding: 2rem;
+  margin: 1rem;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -2715,6 +2745,8 @@ footer ul li:hover {
   .contenedor footer ul {
     font-size: 1rem;
     padding: 1rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: justify;
@@ -3047,6 +3079,8 @@ footer ul li:hover {
   .contenedor footer ul {
     font-size: 1rem;
     padding: 1rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: justify;
@@ -3379,6 +3413,8 @@ footer ul li:hover {
   .contenedor footer ul {
     font-size: 1rem;
     padding: 1rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: justify;

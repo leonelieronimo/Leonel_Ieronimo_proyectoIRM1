@@ -2,13 +2,16 @@
 
 footer
     {
+        background-color: rgb(16, 20, 46);
         ul
         {
             display: flex;
             flex-direction: row;
             font-size: 1.5rem;
-            padding: 2rem;
-            justify-content: space-between;
+            margin: 1rem;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content:space-between;
             list-style: none;
             color: black;
             li
