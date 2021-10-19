@@ -9,35 +9,32 @@
     max-width: auto;
     padding:1rem;
     align-items:center;
-    div
+    .texto
+    {    
+        padding: 1rem;
+        font-size: 25px;
+        font-style: oblique;
+        color:$color-texto;
+        text-decoration: none;
+    }        
+    .lead
     {
-        .texto
-        {    
-            padding: 1rem;
-            font-size: 25px;
-            font-style: oblique;
-            color:$color-texto;
-            text-decoration: none;
-        }        
-        .lead
-        {
-            color:$color-texto;
-        }
-        h1
-        {
-            color: $color-texto;
-            padding: 2rem;
-        }
-        h3
-        {
-            color:$color-texto;
-            padding: 2rem;
-        }
-        h5
-        {
-            color: $color-texto;
-            padding: 2rem;
-        }
+        color:$color-texto;
+    }
+    h1
+    {
+        color: $color-texto;
+        padding: 2rem;
+    }
+    h3
+    {
+        color:$color-texto;
+        padding: 2rem;
+    }
+    h5
+    {
+        color: $color-texto;
+        padding: 2rem;
     }
     fieldset
     {

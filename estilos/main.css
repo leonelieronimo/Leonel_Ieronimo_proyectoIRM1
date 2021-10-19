@@ -1009,7 +1009,7 @@
           align-items: center;
 }
 
-.contenedor div .texto {
+.contenedor .texto {
   padding: 1rem;
   font-size: 25px;
   font-style: oblique;
@@ -1017,21 +1017,21 @@
   text-decoration: none;
 }
 
-.contenedor div .lead {
+.contenedor .lead {
   color: burlywood;
 }
 
-.contenedor div h1 {
-  color: burlywood;
-  padding: 2rem;
-}
-
-.contenedor div h3 {
+.contenedor h1 {
   color: burlywood;
   padding: 2rem;
 }
 
-.contenedor div h5 {
+.contenedor h3 {
+  color: burlywood;
+  padding: 2rem;
+}
+
+.contenedor h5 {
   color: burlywood;
   padding: 2rem;
 }
@@ -2073,16 +2073,16 @@
 }
 
 /*---------------------------------------------------------------------------------------------------*/
-main div div div .texto {
+main .texto {
   font-size: 25px;
   /*Aca le doy formato a los subtitulos de los tipos de autos 
-                                                que aparecen en el "home"*/
+                                    que aparecen en el "home"*/
   font-style: oblique;
   color: burlywood;
   text-decoration: none;
 }
 
-main div div div div div div .Deportivos-foto {
+main .Deportivos-foto {
   width: 92%;
   height: 340px;
   padding: 10px;
@@ -2092,7 +2092,7 @@ main div div div div div div .Deportivos-foto {
   background-color: tomato;
 }
 
-main div div div div div div .SuperDeportivos-foto {
+main .SuperDeportivos-foto {
   width: 92%;
   height: 340px;
   padding: 10px;
@@ -2102,7 +2102,7 @@ main div div div div div div .SuperDeportivos-foto {
   background-color: grey;
 }
 
-main div div div div div div .Sedanes-foto {
+main .Sedanes-foto {
   width: 92%;
   height: 340px;
   padding: 10px;
@@ -2112,7 +2112,7 @@ main div div div div div div .Sedanes-foto {
   background-color: lightcyan;
 }
 
-main div div div div div div .Camionetas-foto {
+main .Camionetas-foto {
   width: 92%;
   height: 340px;
   padding: 10px;
@@ -2122,7 +2122,7 @@ main div div div div div div .Camionetas-foto {
   background-color: lightgreen;
 }
 
-main div div div div div div .Camiones-foto {
+main .Camiones-foto {
   width: 92%;
   height: 340px;
   padding: 10px;
@@ -2132,7 +2132,7 @@ main div div div div div div .Camiones-foto {
   background-color: salmon;
 }
 
-main div div div div div div .Motos-foto {
+main .Motos-foto {
   width: 92%;
   height: 340px;
   padding: 10px;
@@ -2161,7 +2161,7 @@ main .seccion {
           justify-content: space-between;
 }
 
-main .seccion div div .Auto-1 {
+main .seccion .Auto-1 {
   width: 85%;
   height: 340px;
   padding: 10px;
@@ -2179,12 +2179,12 @@ main .seccion div div .Auto-1 {
   padding: 2px;
 }
 
-main .seccion div div .Auto-1:hover {
+main .seccion .Auto-1:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-main .seccion div div .Auto-2 {
+main .seccion .Auto-2 {
   width: 85%;
   height: 340px;
   padding: 10px;
@@ -2202,12 +2202,12 @@ main .seccion div div .Auto-2 {
   padding: 2px;
 }
 
-main .seccion div div .Auto-2:hover {
+main .seccion .Auto-2:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-main .seccion div div .Auto-3 {
+main .seccion .Auto-3 {
   width: 85%;
   height: 340px;
   padding: 10px;
@@ -2225,12 +2225,12 @@ main .seccion div div .Auto-3 {
   padding: 2px;
 }
 
-main .seccion div div .Auto-3:hover {
+main .seccion .Auto-3:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-main .seccion div div .Auto-4 {
+main .seccion .Auto-4 {
   width: 85%;
   height: 340px;
   padding: 10px;
@@ -2248,12 +2248,12 @@ main .seccion div div .Auto-4 {
   padding: 2px;
 }
 
-main .seccion div div .Auto-4:hover {
+main .seccion .Auto-4:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-main .seccion div div .Auto-5 {
+main .seccion .Auto-5 {
   width: 85%;
   height: 340px;
   padding: 10px;
@@ -2271,12 +2271,12 @@ main .seccion div div .Auto-5 {
   padding: 2px;
 }
 
-main .seccion div div .Auto-5:hover {
+main .seccion .Auto-5:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-main .seccion div div .Auto-6 {
+main .seccion .Auto-6 {
   width: 85%;
   height: 340px;
   padding: 10px;
@@ -2294,12 +2294,12 @@ main .seccion div div .Auto-6 {
   padding: 2px;
 }
 
-main .seccion div div .Auto-6:hover {
+main .seccion .Auto-6:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-main .seccion div div .Auto-7 {
+main .seccion .Auto-7 {
   width: 85%;
   height: 340px;
   padding: 10px;
@@ -2317,12 +2317,12 @@ main .seccion div div .Auto-7 {
   padding: 2px;
 }
 
-main .seccion div div .Auto-7:hover {
+main .seccion .Auto-7:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-main .seccion div div .Auto-8 {
+main .seccion .Auto-8 {
   width: 85%;
   height: 340px;
   padding: 10px;
@@ -2340,12 +2340,12 @@ main .seccion div div .Auto-8 {
   padding: 2px;
 }
 
-main .seccion div div .Auto-8:hover {
+main .seccion .Auto-8:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-main .seccion div div .Auto-9 {
+main .seccion .Auto-9 {
   width: 85%;
   height: 340px;
   padding: 10px;
@@ -2363,12 +2363,12 @@ main .seccion div div .Auto-9 {
   padding: 2px;
 }
 
-main .seccion div div .Auto-9:hover {
+main .seccion .Auto-9:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-main .seccion div div .Auto-10 {
+main .seccion .Auto-10 {
   width: 85%;
   height: 340px;
   padding: 10px;
@@ -2386,17 +2386,17 @@ main .seccion div div .Auto-10 {
   padding: 2px;
 }
 
-main .seccion div div .Auto-10:hover {
+main .seccion .Auto-10:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
 
-main .seccion div div ul {
+main .seccion ul {
   float: inline-end;
   list-style: none;
   /*Esta parte edita la ubicacion y estilo de color 
-                                                y posicion de las caracteristicas descriptas debajo de cada imagen en 
-                                                la seccion de "ventas.html"*/
+                                        y posicion de las caracteristicas descriptas debajo de cada imagen en 
+                                        la seccion de "ventas.html"*/
   color: #050101;
 }
 
